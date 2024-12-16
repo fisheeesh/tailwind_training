@@ -1,21 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Backgrounds & Shadows</title>
-  </head>
-  <body>
-    <!-- Background Classes -->
 
-    <!-- Gradients -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Backgrounds & Shadows</title>
+</head>
 
-    <!-- Shadows -->
+<body>
+  <!-- Background Classes -->
+  <div class="h-64 w-72 bg-no-repeat bg-cover bg-center" style="background-image: url('../assets/img/img1.jpg');"></div>
 
-    <!-- Mix Blend -->
-  </body>
+  <!-- Gradients -->
+  <div class="h-24 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
+  <div class="h-24 bg-gradient-to-r from-indigo-500 to-purple-500"></div>
+  <div class="h-24 bg-gradient-to-l from-green-500 to-yellow-500"></div>
+
+  <!-- Shadows -->
+  <div class="w-96 mt-6 ml-4 p-3 shadow">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quia possimus animi vero deserunt magni magnam quo
+    alias laboriosam sit.
+  </div>
+  <div class="w-96 mt-6 ml-4 p-3 shadow-sm">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam corporis delectus fuga quia. Magni laboriosam animi
+    consequuntur inventore distinctio. Fuga!
+  </div>
+  <div class="w-96 mt-6 ml-4 p-3 shadow-md">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam corporis delectus fuga quia. Magni laboriosam animi
+    consequuntur inventore distinctio. Fuga!
+  </div>
+  <div class="w-96 mt-6 ml-4 p-3 shadow-lg">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam corporis delectus fuga quia. Magni laboriosam animi
+    consequuntur inventore distinctio. Fuga!
+  </div>
+  <div class="w-96 mt-6 ml-4 p-3 shadow-xl">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam corporis delectus fuga quia. Magni laboriosam animi
+    consequuntur inventore distinctio. Fuga!
+  </div>
+  <div class="w-96 mt-6 ml-4 p-3 shadow-2xl shadow-green-400/40">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam corporis delectus fuga quia. Magni laboriosam animi
+    consequuntur inventore distinctio. Fuga!
+  </div>
+  <div class="w-96 mt-6 ml-4 p-3 shadow-inner shadow-blue-500/50">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam corporis delectus fuga quia. Magni laboriosam animi
+    consequuntur inventore distinctio. Fuga!
+  </div> <br>
+
+  <!-- Mix Blend -->
+  <div class="flex justify-center -space-x-24">
+    <div class="mix-blend-multiply bg-blue-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum pariatur laborum ab esse
+      ad tempora molestiae saepe nihil culpa quaerat.</div>
+    <div class="mix-blend-multiply bg-pink-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur fugiat
+      necessitatibus atque, minus illum vel delectus vero corrupti. Voluptatem, nostrum?</div>
+  </div>
+
+</body>
+
 </html>
 
 <!-- Background Size
