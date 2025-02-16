@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap" rel="stylesheet" />
     <title>Bookmark Website</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="input.css">
 </head>
 
 <body class="overflow-x-hidden">
@@ -28,6 +29,28 @@
                 <a href="#faq" class="tracking-widest hover:text-softRedd">FAQ</a>
                 <a href="#"
                     class="px-8 py-2 text-white border-2 rounded-lg shadow-md bg-softRed border-softRed hover:text-softRed hover:bg-white">Login</a>
+            </div>
+
+            <!-- Hamburger Button -->
+            <button id="menu-btn" class="z-30 block md:hidden focus:outline-none hamburger">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="menu" class="fixed inset-0 z-20 flex-col items-center self-end hidden w-full h-full min-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90 bg-veryDarkBlue">
+            <div class="w-full py-3 text-center">
+                <a href="#features" class="block hover:text-red-500">Features</a>
+            </div>
+            <div class="w-full py-3 text-center">
+                <a href="#download" class="block hover:text-red-500">Download</a>
+            </div>
+            <div class="w-full py-3 text-center">
+                <a href="#faq" class="block hover:text-red-500">FAQ</a>
+            </div>
+            <div class="w-full py-3 text-center">
+                <a href="#" class="block hover:text-red-500">Login</a>
             </div>
         </div>
     </nav>
@@ -406,7 +429,8 @@
                 <div class="flex flex-col items-center justify-between mx-auto md:flex-row md:mx-0">
                     <input type="text" name="email" placeholder="Enter your email address"
                         class="flex-1 px-6 pt-3 pb-2 mb-4 border-white rounded-lg border-1 focus:outline-none md:mr-3 md:mb-0">
-                    <input type="submit" value="Contact Us" class="inline-flex px-6 py-3 font-semibold text-center text-white duration-200 transform rounded-lg cursor-pointer focus:outline-none bg-softRed hover:opacity-90">
+                    <input type="submit" value="Contact Us"
+                        class="inline-flex px-6 py-3 font-semibold text-center text-white duration-200 transform rounded-lg cursor-pointer focus:outline-none bg-softRed hover:opacity-90">
                 </div>
             </form>
         </div>
@@ -415,9 +439,11 @@
     <!-- Footer Section -->
     <footer class="py-16 bg-veryDarkBlue">
         <!-- Footer Flex Contianer -->
-        <div class="container flex flex-col items-center justify-between px-6 mx-auto space-y-16 md:flex-row md:space-y-0">
+        <div
+            class="container flex flex-col items-center justify-between px-6 mx-auto space-y-16 md:flex-row md:space-y-0">
             <!-- Logo/Menu Container -->
-            <div class="flex flex-col items-center justify-between space-y-8 text-lg font-light md:flex-row md:space-y-0 md:space-x-14 text-grayishBlue">
+            <div
+                class="flex flex-col items-center justify-between space-y-8 text-lg font-light md:flex-row md:space-y-0 md:space-x-14 text-grayishBlue">
                 <img src="images/logo-bookmark-footer.svg" alt="" class="mb-1">
 
                 <a href="#features" class="uppercase hover:text-softRed">Features</a>
