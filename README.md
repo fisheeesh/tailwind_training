@@ -9,7 +9,7 @@
 | 05  |       [Login Modal](https://github.com/bradtraversy/tailwind-course-projects/tree/main/mini-projects/login-modal)        |     [Live Demo](https://www.tailwindfromscratch.com/mini-projects/login-modal/index.html)     |
 | 06  |        [Clipboard](https://github.com/fisheeesh/tailwind_training/tree/master/clipboard-website)        |    [Live Demo](https://clip-board-syp.netlify.app/)     |
 | 07  |      [Loopstudios](https://github.com/fisheeesh/tailwind_training/tree/master/loopstudio-website)      |   [Live Demo](https://loop-stuido.netlify.app/)    |
-| 08  |          [Shortly](https://github.com/fisheeesh/tailwind_training/tree/master/shortyly-website)          |     [Live Demo](https://shortly-syp.netlify.app/)      |
+| 08  |          [Shortly](https://github.com/fisheeesh/tailwind_training/tree/master/shortly-website)          |     [Live Demo](https://shortly-syp.netlify.app/)      |
 | 09  | [Testimonial Grid](https://github.com/fisheeesh/tailwind_training/tree/master/testimonial-grid) | [Live Demo](https://www.tailwindfromscratch.com/website-projects/testimonial-grid/index.html) |
-| 10  |             [Fylo](https://github.com/fisheeesh/tailwind_training/tree/master/fylo-webiste)             |       [Live Demo](https://fylo-website-syp.netlify.app/)       |
-| 11  |         [Bookmark](https://github.com/fisheeesh/tailwind_training/tree/master/bookmark-website)     |
+| 10  |             [Fylo](https://github.com/fisheeesh/tailwind_training/tree/master/fylo-website)             |       [Live Demo](https://fylo-website-syp.netlify.app/)       |
+| 11  |         [Bookmark](https://github.com/fisheeesh/tailwind_training/tree/master/bookmark-website)     |  [Live Demo](https://book-mark-webiste.netlify.app/)
